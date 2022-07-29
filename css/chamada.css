@@ -1,0 +1,80 @@
+ /* Chamada Section */
+ .inicio {
+    background: #ffffff;
+    background: linear-gradient(to right, #ffff, #fdf5f5);
+    padding: 200px 0;
+  }
+  
+  .inicio__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .inicio__heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .inicio__heading span {
+    background: #ee0979; 
+    background: -webkit-linear-gradient(
+      to right,
+      #F5A9B8,
+      #ee0979
+    );
+
+    background: linear-gradient(
+      to right,
+      #F5A9B8,
+      #ee0979
+    ); 
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+  }
+  
+  .inicio__description {
+    font-size: 20px;
+    background: #030303; 
+    background: -webkit-linear-gradient(
+      to right,
+      #000000,
+      #000000
+    ); 
+    background: linear-gradient(
+      to right,
+      #000000,
+      #000000
+    ); 
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .highlight {
+    border-bottom: 4px solid rgb(132, 0, 255);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .inicio__heading {
+      font-size: 60px;
+    }
+  
+    .inicio__description {
+      font-size: 40px;
+    }
+  }
+  
+  
